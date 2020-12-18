@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    twit (0.1.0)
+      git
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.4.4)
+    git (1.7.0)
+      rchardet (~> 1.8)
+    rake (12.3.3)
+    rake-compiler (1.1.1)
+      rake
+    rchardet (1.8.0)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake (~> 12.0)
+  rake-compiler
+  rspec (~> 3.0)
+  twit!
+
+BUNDLED WITH
+   2.1.4
